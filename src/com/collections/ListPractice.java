@@ -23,6 +23,7 @@ public class ListPractice {
 		
 		List<Integer> linkedListNumber = new LinkedList<Integer>();
 		
+		//add the elements in the list
 		linkedListNumber.add(12);
 		linkedListNumber.add(3);
 		linkedListNumber.add(23);
@@ -31,7 +32,14 @@ public class ListPractice {
 		
 		System.out.print("LinkedList is:");	
 		System.out.println(linkedListNumber);	
-		
+		System.out.println("size of list: " + linkedListNumber.size());	
+		System.out.println("hashCode: " + linkedListNumber.hashCode());	
+		System.out.println("index of 3 is is: " + linkedListNumber.indexOf(3));	
+		System.out.println("is the list empty: " + linkedListNumber.isEmpty());	
+		 linkedListNumber.clear();
+		 System.out.print("LinkedList is:");
+		 System.out.println("is the list empty: " + linkedListNumber.isEmpty());	
+			System.out.println(linkedListNumber);
 
 	}
 
